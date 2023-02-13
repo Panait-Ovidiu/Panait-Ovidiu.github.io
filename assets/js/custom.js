@@ -53,6 +53,10 @@ $(document).ready(function(){
 
 // 4. SlideShows
 
+var slideshow_VRBowlingGame = document.getElementById("slideshow_VRBowlingGame");
+slideshow_VRBowlingGame.currentSlideIndex = 1;
+showSlides(slideshow_VRBowlingGame.currentSlideIndex, slideshow_VRBowlingGame);
+
 var slideshow_FPSGame = document.getElementById("slideshow_FPSGame");
 slideshow_FPSGame.currentSlideIndex = 1;
 showSlides(slideshow_FPSGame.currentSlideIndex, slideshow_FPSGame);
