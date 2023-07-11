@@ -53,6 +53,10 @@ $(document).ready(function(){
 
 // 4. SlideShows
 
+var slideshow_MyFarmGameUnity = document.getElementById("slideshow_MyFarmGameUnity");
+slideshow_MyFarmGameUnity.currentSlideIndex = 1;
+showSlides(slideshow_MyFarmGameUnity.currentSlideIndex, slideshow_MyFarmGameUnity);
+
 var slideshow_VRBowlingGame = document.getElementById("slideshow_VRBowlingGame");
 slideshow_VRBowlingGame.currentSlideIndex = 1;
 showSlides(slideshow_VRBowlingGame.currentSlideIndex, slideshow_VRBowlingGame);
